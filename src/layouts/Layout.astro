@@ -10,11 +10,36 @@ const { title } = Astro.props;
 <html lang="fr" class="!scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="generator" content={Astro.generator} />
+
     <title>{title}</title>
+    <meta
+      name="description"
+      content="Experts en construction et en rénovation en Guyane, Home Renovation Plus propose des solutions pour améliorer l'aspect extérieur et intérieur de vos bâtiments. Contactez-nous pour vos projets immobiliers."
+    />
+    <meta
+      name="keywords"
+      content="rénovation en Guyane, construction en Guyane, peinture en Guyane, maçonnerie en Guyane, plomberie en Guyane, enduit projeté, crépi, remise en état après sinistre, crépissage de façade, enduiseur à la chaux, peintre décorateur, peinture intérieure, peinture extérieure, rénovation de peinture, Home Renovation Plus"
+    />
+
+    <meta
+      property="og:title"
+      content="Home Renovation Plus - Experts en Construction et Rénovation en Guyane"
+    />
+    <meta
+      property="og:description"
+      content="Experts en construction et en rénovation en Guyane, Home Renovation Plus propose des solutions pour améliorer l'aspect extérieur et intérieur de vos bâtiments. Contactez-nous pour vos projets immobiliers."
+    />
+    <meta property="og:image" content="URL_DE_VOTRE_IMAGE" />
+    <meta property="og:url" content="URL_DE_VOTRE_SITE" />
   </head>
   <body class="w-full bg-bgColor">
     <slot />
