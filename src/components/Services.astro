@@ -1,3 +1,10 @@
+---
+import { Image } from "astro:assets";
+import maçon from "../assets/macon.jpg";
+import plomberie from "../assets/plomberie.jpeg";
+import renovation from "../assets/renovation.jpg";
+---
+
 <section class="text-gray-600 body-font" id="services">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
@@ -16,169 +23,72 @@
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            class="w-full h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
           >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
+            <Image
+              src={renovation}
+              class="md:w-1/2h-5"
+              alt="photo de rénovation d'une maison"
+            />
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            Shooting Stars
+            Rénovation
           </h2>
           <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
+            Nous offrons des services de rénovation complets pour transformer et
+            moderniser vos espaces. Des travaux après sinistre aux rénovations
+            de peintures intérieures et extérieures.
           </p>
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            class="w-full h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
           >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
-              ></path>
-            </svg>
+            <Image
+              src={plomberie}
+              class="w-full"
+              alt="photo de rénovation d'une maison"
+            />
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            The Catalyzer
+            Plomberie
           </h2>
           <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
+            Nous offrons des services de plomberie complets, allant de
+            l'installation à la réparation de systèmes de plomberie. Que ce soit
+            pour des projets résidentiels ou commerciaux, nous assurons des
+            solutions durables et efficaces.
           </p>
         </div>
       </div>
       <div class="xl:w-1/3 md:w-1/2 p-4">
         <div class="border border-gray-200 p-6 rounded-lg">
           <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            class="w-full h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
           >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
+            <Image
+              src={maçon}
+              class="w-full"
+              alt="photo de rénovation d'une maison"
+            />
           </div>
           <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            Neptune
+            Maçonnerie
           </h2>
           <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
+            Nos experts en maçonnerie offrent une gamme complète de services
+            pour vos projets de construction et de rénovation. Que ce soit pour
+            des travaux de crépi, d'enduit ou de remise en état après sinistre.
           </p>
         </div>
       </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"
-              ></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            Melanchole
-          </h2>
-          <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
-          </p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            Bunker
-          </h2>
-          <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
-          </p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div
-            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-6 h-6"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-            Ramona Falls
-          </h2>
-          <p class="leading-relaxed text-base">
-            Fingerstache flexitarian street art 8-bit waist co, subway tile poke
-            farm.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- <button
+
+      <!-- <button
       class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
       >Button</button
     > -->
+    </div>
   </div>
 </section>
