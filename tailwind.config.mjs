@@ -10,6 +10,7 @@ export default {
       accentSg: "#FEFFFC",
       ctColor: "#F8F8FF",
       accentblue: "#5D9CEC",
+      black: "#333",
       accentyellow: "#FFD700",
       bgColor: "#F4F4F4",
       textcolor: "#000000",
